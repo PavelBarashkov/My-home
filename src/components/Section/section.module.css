@@ -1,0 +1,14 @@
+.section {
+    margin: 100px 0;
+width: 100%;
+    color: #454545;
+}
+
+.sectionTitle {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+
+    margin-bottom: 40px;
+}
+

@@ -1,0 +1,51 @@
+.blockTitle {
+  font-size: 43px;
+  font-weight: bold;
+}
+
+.blockInfo span {
+  font-size: 43px;
+  font-weight: bold;
+}
+
+.blockInfoExtra {
+  line-height: 20px;
+
+  margin-top: 20px;
+}
+
+.blockImg {
+  width: 100%;
+  height: 100%;
+}
+
+.blockImg p {
+  margin: 0;
+}
+
+.blockImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  border-radius: 10px;
+  box-shadow: 0px 7px 16px 18px rgba(0, 0, 0, 0.11);
+}
+
+@media (max-width: 425px) {
+  .blockTitle {
+    font-size: 30px;
+  }
+  .blockInfo span {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 356px) {
+  .blockTitle {
+    font-size: 26px;
+  }
+  .blockInfo span {
+    font-size: 43px;
+  }
+}

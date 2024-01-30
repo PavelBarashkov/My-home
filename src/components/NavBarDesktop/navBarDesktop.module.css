@@ -1,0 +1,82 @@
+.navBar {
+  background-color: inherit;
+}
+
+.brand {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 8px;
+
+  position: relative;
+  z-index: 3;
+
+  margin-right: 0;
+
+  font-size: 36px;
+  color: #ffff;
+}
+
+.brand:hover {
+  color: #ffff;
+}
+
+.navLink {
+
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  position: relative;
+  z-index: 3;
+  color: #ffff;
+  font-size: 16px;
+}
+.navLink img {
+  width: 20px;
+  height: 20px;
+}
+
+.navLink:hover {
+  color: #ffff;
+
+  cursor: default;
+}
+
+.btnMenu {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+
+  position: relative;
+  z-index: 3;
+  
+  padding: 5px 15px;
+
+  background-color: #ffff;
+  color: black;
+
+  border: none;
+  border-radius: 25px;
+}
+
+
+.menu {
+
+  padding: 5px 15px;
+  row-gap: 15px;
+}
+
+.menu a{
+
+  padding: 10px 25px;
+}
+
+.menuItem {
+  --bs-dropdown-link-active-bg: red !important;
+
+}
+
+.menuItem:hover {
+  transition: 0.2s;
+  background-color: lightgray;
+  color: #ffff;
+}

@@ -1,0 +1,38 @@
+.footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #e0e4e4;
+}
+
+.footerTitle {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 8px;
+
+  margin-bottom: 20px;
+
+  color: inherit;
+  text-decoration: none;
+  font-size: 36px;
+}
+
+.footerList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.footerItem {
+  cursor: pointer;
+}
+.footerItem a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footerItem:hover {
+  color: rgb(0, 0, 0);
+}
+
+.footerSubTitle {
+  font-weight: 600;
+}

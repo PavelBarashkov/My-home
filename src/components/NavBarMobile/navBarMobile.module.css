@@ -1,0 +1,65 @@
+.navBar {
+  /* background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(54,203,203,0.3617822128851541) 0%, rgba(149,191,232,1) 100%); */
+}
+
+.brand {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  column-gap: 8px;
+
+  margin-right: 0;
+
+  font-size: 20px;
+  color: #ffff;
+}
+.brand img {
+  width: 25px;
+  height: 25px;
+}
+
+.btnMenu {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+
+  padding: 5px 10px;
+
+  font-size: 12px;
+
+  background-color: #ffff;
+  color: black;
+
+  border: none;
+  border-radius: 25px;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.menuItem {
+  padding: 5px 15px;
+
+  cursor: pointer;
+  color: #454545;
+  border-radius: 8px;
+  text-decoration: none;
+
+}
+
+
+.menuItem:hover {
+  transition: 0.2s;
+  background-color: lightgray;
+  color: #ffff;
+}
+
+.Offcanvas {
+  height: 100% !important;
+}
