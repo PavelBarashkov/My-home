@@ -32,8 +32,8 @@
   box-shadow: 0px 7px 16px 18px rgba(0, 0, 0, 0.11);
 }
 
-.blockInfo span {
-  
+.blockInfo {
+  line-height: 25px;
 }
 
 @media (max-width: 425px) {
