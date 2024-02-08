@@ -19,7 +19,7 @@ export const FavoriteVillage = () => {
         <Col lg={5}>
           <div className={classes.blockInfo}>
             <p>
-              коттеджный поселок Виктория, внутрипоселковые дороги. Рядом
+              <span>к</span>оттеджный поселок Виктория, внутрипоселковые дороги. Рядом
               прекрасные пляжи, река, лес, развитая инфраструктура.
             </p>
             <p className={classes.blockInfoExtra}>

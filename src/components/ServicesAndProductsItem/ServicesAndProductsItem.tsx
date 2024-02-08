@@ -9,7 +9,7 @@ interface IServicesAndProductsItemProps {
   number?: string;
   data?: string[];
   subTitle?: string;
-  IsTermOfSale?: boolean
+  IsTermOfSale?: boolean;
 }
 
 export const ServicesAndProductsItem = ({
@@ -19,31 +19,30 @@ export const ServicesAndProductsItem = ({
   subTitle,
   data,
   img,
-  IsTermOfSale
+  IsTermOfSale,
 }: IServicesAndProductsItemProps) => {
-
-  if(IsTermOfSale) {
+  if (IsTermOfSale) {
     return (
       <Row className="align-items-start justify-content-between g-3">
-          <Col lg={5}>
-            <h3 className={classes.productTitle}>{title}</h3>
-          </Col>
-          <Col lg={5}>
-            <div>
-              <h5 className={classes.productSubTitle}>{subTitle}</h5>
-              <div className={classes.productList}>
-                {data &&
-                  data.map((item: string) => (
-                    <div className={classes.productItem}>
-                      <img src={iconItem} alt="" />
-                      <p>{item}</p>
-                    </div>
-                  ))}
-              </div>
+        <Col lg={5}>
+          <h3 className={classes.productTitle}>{title}</h3>
+        </Col>
+        <Col lg={5}>
+          <div>
+            <h5 className={classes.productSubTitle}>{subTitle}</h5>
+            <div className={classes.productList}>
+              {data &&
+                data.map((item: string) => (
+                  <div className={classes.productItem}>
+                    <img src={iconItem} alt="" />
+                    <p>{item}</p>
+                  </div>
+                ))}
             </div>
-          </Col>
+          </div>
+        </Col>
       </Row>
-    )
+    );
   }
   return (
     <Row className="align-items-start justify-content-between g-3">

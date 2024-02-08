@@ -47,12 +47,15 @@
 
 } */
 
+.swiper-wrapper {
+align-items: center !important;
+user-select: none;
+
+}
+
 .swiper-slide {
   border-radius: 20px;
   overflow: hidden;
-  /* max-height: 890px !important; */
-
-
 }
 
 .swiper-slide.swiper-slide-active {
