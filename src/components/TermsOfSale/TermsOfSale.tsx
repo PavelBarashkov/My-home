@@ -2,8 +2,8 @@ import React from 'react'
 import { Section } from '../Section/Section'
 import { ServicesAndProductsItem } from '../ServicesAndProductsItem/ServicesAndProductsItem'
 const data = [
-    'сопровождение одобрения ипотеки, подготовка договоров',
-    'использование программ господдержки, сельхозипотеки, материнского капитала, субсидии, оплата сертификатами, IT-ипотеки'
+    'Сопровождение одобрения ипотеки, подготовка договоров.',
+    'Использование программ господдержки, сельхозипотеки, материнского капитала, субсидии, оплата сертификатами, IT-ипотеки.'
 ]
 
 export const TermsOfSale = () => {
