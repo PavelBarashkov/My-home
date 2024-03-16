@@ -24,6 +24,8 @@ export const Footer = () => {
             <div>
               <div className={classes.footerItem}>259-29-10</div>
               <div className={classes.footerItem}>8-922-312-67-11</div>
+              <div className={classes.footerItem}>ИНН 595151124015</div>
+
             </div>
           </Col>
         </Row>
