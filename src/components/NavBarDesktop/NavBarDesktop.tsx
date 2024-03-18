@@ -37,6 +37,9 @@ export const NavBarDesktop = () => {
             >
               Товары и Услуги
             </Dropdown.Item>
+            <Dropdown.Item className={classes.menuItem} href="#ourSubject">
+              Наши объекты
+            </Dropdown.Item>
             <Dropdown.Item className={classes.menuItem} href="#Catalog">
               Каталог
             </Dropdown.Item>

@@ -5,6 +5,7 @@ import { FavoriteVillage } from "../FavoriteVillage/FavoriteVillage";
 import { ServicesAndProducts } from "../ServicesAndProducts/ServicesAndProducts";
 import { Catalog } from "../Catalog/Catalog";
 import { TermsOfSale } from "../TermsOfSale/TermsOfSale";
+import { CardList } from "../CardList/CardList";
 
 export const Main = () => {
   return (
@@ -12,6 +13,7 @@ export const Main = () => {
       <Container>
         <FavoriteVillage/>
         <ServicesAndProducts />
+        <CardList/>
         <Catalog/>
         <TermsOfSale/>
       </Container>
