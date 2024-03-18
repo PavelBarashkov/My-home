@@ -9,6 +9,7 @@ import imgOne4 from "../../assets/readyObjects/one/фото 4.jpg";
 import imgOne5 from "../../assets/readyObjects/one/ajnj 5.jpg";
 import imgTwo1 from "../../assets/readyObjects/two/фото.jpg";
 import imgTwo2 from "../../assets/readyObjects/two/photo_2024-03-15_16-16-26.jpg";
+import imgTwo6 from "../../assets/readyObjects/two/photo_2024-03-15_16-44-37.jpg";
 import imgTwo3 from "../../assets/readyObjects/two/photo_2024-03-15_16-15-14.jpg";
 import imgTwo4 from "../../assets/readyObjects/two/photo_2024-01-23_12-59-33.jpg";
 import imgTwo5 from "../../assets/readyObjects/two/photo_2024-01-23_12-59-32.jpg";
@@ -40,7 +41,7 @@ const data = [
     village: "Култаевское поселение, поселок Объект КРП",
     street: "улица Луговая",
     date: "Июль-ноябрь 2023",
-    images: [imgTwo1, imgTwo2, imgTwo3, imgTwo4, imgTwo5],
+    images: [imgTwo6,, imgTwo4, imgTwo5,  imgTwo1, imgTwo2, imgTwo3],
   },
   {
     village: "село Лобаново",
@@ -53,15 +54,15 @@ const data = [
   {
     village: "село Лобаново",
     street: "улица Малахитовая",
-    date: "Фпрель-ноябрь 2023",
-    images: [imgFour1, imgFour2, imgFour3, imgFour4, imgFour5, imgFour6, imgFour7],
+    date: "Апрель-ноябрь 2023",
+    images: [imgFour7, imgFour1, imgFour2, imgFour3, imgFour4, imgFour5, imgFour6, ],
     description: 'Построены и сданы в эксплуатацию 3 дома, облицованы кирпичом'
   },
 ];
 
 export const CardList = () => {
   return (
-    <Section title="Наши объекты" isContainer={false} idName="Catalog">
+    <Section title="Наши объекты" isContainer={false} idName="ourSubject">
       <Row xs={1} className="justify-content-between g-4">
         {data.map((item: any) => (
           <Col md={5}>
