@@ -1,6 +1,5 @@
 import classes from "./header.module.css";
 import { NavBar } from "../NavBar/NavBar";
-import photo from "../../assets/header/photo_2024-01-23_12-01-27.jpg";
 import map from "../../assets/header/Group 9.png";
 import { Container } from "react-bootstrap";
 
@@ -15,6 +14,8 @@ export const Header = () => {
               Строим мечты.<br></br>Создаем дома.
             </h1>
             <p>Доверьте нам свои мечты, и мы сделаем их реальностью!</p>
+            <p>Аккредитованы в Сбербанк</p>
+
           </div>
           <div className={classes.map}>
             <img src={map} />
