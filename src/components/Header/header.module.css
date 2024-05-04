@@ -69,6 +69,18 @@
     position: relative; */
 }
 
+.info_bank {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.info_bank img {
+  width: 32px;
+  height: 32px;
+}
+
 .map img {
   width: 100%;
   height: auto;
@@ -158,6 +170,10 @@
 
     margin-left: 22px;
     padding-top: 25px;
+  }
+  .info_bank img {
+    width: 25px;
+    height: 25px;
   }
 }
 

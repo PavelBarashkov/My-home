@@ -1,11 +1,9 @@
+import React from "react";
 import classes from "./navBarDesktop.module.css";
-import { Container, Dropdown, Nav, Navbar, Offcanvas } from "react-bootstrap";
 import iconPhone from "../../assets/header/Telephone.png";
 import iconLogo from "../../assets/header/House.png";
+import { Container, Dropdown, Nav, Navbar } from "react-bootstrap";
 import { RxHamburgerMenu } from "react-icons/rx";
-import React from "react";
-import iconStar from "../../assets/header/free-icon-star-medal-8146767.png"
-
 
 export const NavBarDesktop = () => {
   const CustomToggle = React.forwardRef<HTMLButtonElement>(
@@ -61,7 +59,6 @@ export const NavBarDesktop = () => {
         <Nav>
           <div className={classes.navLink}>
             <img src={iconPhone} alt="" /> <span>+7 (922) 312-67-11</span>
-            <div className={classes.navLink_star}><img alt="" src={iconStar}/></div>
           </div>
         </Nav>
       </Container>
