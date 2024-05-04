@@ -16,7 +16,7 @@ export const Header = () => {
             </h1>
             <p>Доверьте нам свои мечты, и мы сделаем их реальностью!</p>
             <div className={classes.info_bank}>
-              <p>Аккредитованы в Сбербанке</p>
+              <p>Аккредитованы в Сбербанке.</p>
               <img alt="" src={iconStart}/>
             </div>
           </div>
