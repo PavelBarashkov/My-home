@@ -80,3 +80,9 @@
   background-color: lightgray;
   color: #ffff;
 }
+
+
+.tel {
+  color: inherit;
+  text-decoration: none;
+}

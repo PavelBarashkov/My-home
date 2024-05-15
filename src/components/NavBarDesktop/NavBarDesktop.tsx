@@ -58,7 +58,7 @@ export const NavBarDesktop = () => {
 
         <Nav>
           <div className={classes.navLink}>
-            <img src={iconPhone} alt="" /> <span>+7 (922) 312-67-11</span>
+            <img src={iconPhone} alt="" /> <a  className={classes.tel} href="tel: 89223126711">+7 (922) 312-67-11</a>
           </div>
         </Nav>
       </Container>
