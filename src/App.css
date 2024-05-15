@@ -86,3 +86,12 @@ user-select: none;
   margin-top: 0;
   margin-right: var(--bs-dropdown-spacer);
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
