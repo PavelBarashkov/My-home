@@ -1,0 +1,89 @@
+.formSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+
+    margin-bottom: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    max-width: 350px;
+    width: 100%;
+    padding: 10px 5px;
+
+    border-radius: 6px;
+    border: 1px solid;
+
+    cursor: pointer;
+}
+
+.radioList {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.radio {
+    display: flex;
+    column-gap: 8px;
+    accent-color: #59804b;
+
+    cursor: pointer;
+}
+
+#radioExample {
+    width: 15px;
+    
+    cursor: pointer;
+}
+
+.button {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px 5px;
+
+    background-color: #b5c5af;
+
+    border: 1px solid #b5c5af;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background-color: #82c06e;
+    border-color: #82c06e;
+}
+
+.button:active {
+    background-color: inherit;
+    border-color: #82c06e;
+}
+
+.title {
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+.inValid {
+    border-color: red;
+}
+
+.inValid::placeholder {
+    color: red;
+}

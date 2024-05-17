@@ -21,7 +21,6 @@
 }
 
 .navLink {
-
   display: flex;
   align-items: center;
   column-gap: 8px;
@@ -33,6 +32,11 @@
 .navLink img {
   width: 20px;
   height: 20px;
+}
+
+.navLink_star img {
+  width: 100%;
+  height: 100%;
 }
 
 .navLink:hover {
@@ -48,7 +52,7 @@
 
   position: relative;
   z-index: 3;
-  
+
   padding: 5px 15px;
 
   background-color: #ffff;
@@ -58,25 +62,27 @@
   border-radius: 25px;
 }
 
-
 .menu {
-
   padding: 5px 15px;
   row-gap: 15px;
 }
 
-.menu a{
-
+.menu a {
   padding: 10px 25px;
 }
 
 .menuItem {
   --bs-dropdown-link-active-bg: red !important;
-
 }
 
 .menuItem:hover {
   transition: 0.2s;
   background-color: lightgray;
   color: #ffff;
+}
+
+
+.tel {
+  color: inherit;
+  text-decoration: none;
 }

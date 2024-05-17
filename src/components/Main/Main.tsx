@@ -6,6 +6,7 @@ import { ServicesAndProducts } from "../ServicesAndProducts/ServicesAndProducts"
 import { Catalog } from "../Catalog/Catalog";
 import { TermsOfSale } from "../TermsOfSale/TermsOfSale";
 import { CardList } from "../CardList/CardList";
+import { FeedbackForm } from "../../modules";
 
 export const Main = () => {
   return (
@@ -16,6 +17,7 @@ export const Main = () => {
         <CardList/>
         <Catalog/>
         <TermsOfSale/>
+        <FeedbackForm/>
       </Container>
     </main>
   );
