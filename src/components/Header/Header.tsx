@@ -1,5 +1,5 @@
 import classes from "./header.module.css";
-import map from "../../assets/header/Group 9.png";
+import map from "../../assets/header/map.svg";
 import iconStart from "../../assets/header/free-icon-star-medal-8146767.png";
 import { NavBar } from "../NavBar/NavBar";
 import { Container } from "react-bootstrap";
