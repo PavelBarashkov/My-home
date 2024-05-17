@@ -48,7 +48,7 @@ export const Catalog = () => {
         }}
       >
         {data.map((item: any) => (
-          <SwiperSlide className={classes.SwiperSlide}>
+          <SwiperSlide className={classes.SwiperSlide} >
             <img src={item} alt="" />
           </SwiperSlide>
         ))}
