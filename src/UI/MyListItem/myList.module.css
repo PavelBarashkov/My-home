@@ -1,0 +1,17 @@
+.productList {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 8px;
+  }
+  
+  .productItem {
+    display: flex;
+    align-items: self-start;
+    column-gap: 8px;
+  }
+  
+  .productItem span {
+    font-size: 35px;
+    font-weight: 700;
+  }

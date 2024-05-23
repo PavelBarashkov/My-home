@@ -1,6 +1,7 @@
 import classes from "./servicesAndProductsItem.module.css";
 import { Col, Row } from "react-bootstrap";
 import iconItem from "../../assets/main/Rectangle 33.png";
+import { MyList } from "../../UI/MyListItem/MyList";
 
 interface IServicesAndProductsItemProps {
   isReverse: boolean;
@@ -30,15 +31,7 @@ export const ServicesAndProductsItem = ({
         <Col lg={5}>
           <div>
             <h5 className={classes.productSubTitle}>{subTitle}</h5>
-            <div className={classes.productList}>
-              {data &&
-                data.map((item: string) => (
-                  <div className={classes.productItem}>
-                    <img src={iconItem} alt="" />
-                    <p>{item}</p>
-                  </div>
-                ))}
-            </div>
+            <MyList data={data ? data : []}/>
           </div>
         </Col>
       </Row>
@@ -64,15 +57,7 @@ export const ServicesAndProductsItem = ({
           <Col lg={5}>
             <div>
               <h5 className={classes.productSubTitle}>{subTitle}</h5>
-              <div className={classes.productList}>
-                {data &&
-                  data.map((item: string) => (
-                    <div className={classes.productItem}>
-                      <img src={iconItem} alt="" />
-                      <p>{item}</p>
-                    </div>
-                  ))}
-              </div>
+              <MyList data={data ? data : []}/>
             </div>
           </Col>
         </>
@@ -89,15 +74,7 @@ export const ServicesAndProductsItem = ({
           <Col lg={5}>
             <div>
               <h5 className={classes.productSubTitle}>{subTitle}</h5>
-              <div className={classes.productList}>
-                {data &&
-                  data.map((item: string) => (
-                    <div className={classes.productItem}>
-                      <img src={iconItem} alt="" />
-                      <p>{item}</p>
-                    </div>
-                  ))}
-              </div>
+              <MyList data={data ? data : []}/>
             </div>
           </Col>
           <Col lg={5}>
