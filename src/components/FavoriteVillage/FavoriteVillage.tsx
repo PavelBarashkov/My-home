@@ -11,7 +11,7 @@ import { MyList } from "../../UI/MyListItem/MyList";
 export const FavoriteVillage = () => {
   const data = [
     "60 домовладений",
-    "Участки 8-12 сот",
+    "Участки 8-12 соток",
     "Закрытая территория с детской площадкой и зоной отдыха"
   ]
 

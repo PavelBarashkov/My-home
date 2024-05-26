@@ -1,6 +1,6 @@
 import classes from "./servicesAndProducts.module.css";
 import { data1, data2, data3 } from "./data";
-import photo1 from "../../assets/main/photo_2024-01-23_12-01-28.jpg";
+import photo1 from "../../assets/main/download_image_1716722705049.png"
 import photo2 from "../../assets/main/chertezhi-domov (1).jpg";
 import photo3 from "../../assets/catalog/photo_2024-01-23_12-05-31.jpg";
 
