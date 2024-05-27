@@ -28,8 +28,11 @@ export const NavBarDesktop = () => {
         <Dropdown>
           <Dropdown.Toggle as={CustomToggle}>Меню</Dropdown.Toggle>
           <Dropdown.Menu className={classes.menu}>
-            <Dropdown.Item className={classes.menuItem} href="#FavoriteVillage">
-              Жебреи
+            <Dropdown.Item className={classes.menuItem} href="#FavoriteVillage1">
+            Жебреи. КП Виктория
+            </Dropdown.Item>
+            <Dropdown.Item className={classes.menuItem} href="#FavoriteVillage2">
+            Култаево. КП Новая Высота
             </Dropdown.Item>
             <Dropdown.Item
               className={classes.menuItem}
