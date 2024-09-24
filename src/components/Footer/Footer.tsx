@@ -24,7 +24,7 @@ export const Footer = () => {
             <div>
               <div className={classes.footerItem}><a href="tel: 259-29-10">259-29-10</a></div>
               <div className={classes.footerItem}><a href="tel: 8-922-312-67-11">8-922-312-67-11</a></div>
-              <div className={classes.footerItem}>ИНН 595151124015</div>
+              <div className={classes.footerItem}>ИНН 590401557390</div>
 
             </div>
           </Col>
